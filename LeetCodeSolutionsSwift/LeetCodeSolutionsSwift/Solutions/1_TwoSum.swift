@@ -8,17 +8,15 @@
 
 import Foundation
 
-class Solution {
-    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-        var numsDict = [Int: Int]()
-        for (index, item) in nums.enumerated() {
-            if let targetIndex = numsDict[target - item] {
-                return [index, targetIndex]
-            }
-            
-            numsDict[item] = index
+func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    var numsDict = [Int: Int]()
+    for (index, item) in nums.enumerated() {
+        if let targetIndex = numsDict[target - item] {
+            return [index, targetIndex]
         }
         
-        return [0, 0]
+        numsDict[item] = index
     }
+    
+    return [0, 0]
 }
