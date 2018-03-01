@@ -17,6 +17,7 @@
 		F27E9CAD2047A8D500D41365 /* Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E9CAC2047A8D500D41365 /* Interval.swift */; };
 		F27E9CAF2047A91B00D41365 /* 2_AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E9CAE2047A91B00D41365 /* 2_AddTwoNumbers.swift */; };
 		F27E9CB12047AB0500D41365 /* 3_LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E9CB02047AB0500D41365 /* 3_LongestSubstringWithoutRepeatingCharacters.swift */; };
+		F27E9CB32047D11300D41365 /* 4_MedianOfTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27E9CB22047D11300D41365 /* 4_MedianOfTwoSortedArrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		F27E9CAC2047A8D500D41365 /* Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval.swift; sourceTree = "<group>"; };
 		F27E9CAE2047A91B00D41365 /* 2_AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_AddTwoNumbers.swift; sourceTree = "<group>"; };
 		F27E9CB02047AB0500D41365 /* 3_LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3_LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
+		F27E9CB22047D11300D41365 /* 4_MedianOfTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4_MedianOfTwoSortedArrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				F27E9C9D2047A74000D41365 /* 1_TwoSum.swift */,
 				F27E9CAE2047A91B00D41365 /* 2_AddTwoNumbers.swift */,
 				F27E9CB02047AB0500D41365 /* 3_LongestSubstringWithoutRepeatingCharacters.swift */,
+				F27E9CB22047D11300D41365 /* 4_MedianOfTwoSortedArrays.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				F27E9CA02047A78C00D41365 /* main.swift in Sources */,
 				F27E9C9E2047A74000D41365 /* 1_TwoSum.swift in Sources */,
 				F27E9CA92047A89F00D41365 /* Point.swift in Sources */,
+				F27E9CB32047D11300D41365 /* 4_MedianOfTwoSortedArrays.swift in Sources */,
 				F27E9CA72047A88E00D41365 /* TreeLinkNode.swift in Sources */,
 				F27E9CA32047A85300D41365 /* ListNode.swift in Sources */,
 				F27E9CB12047AB0500D41365 /* 3_LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
